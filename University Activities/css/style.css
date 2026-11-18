@@ -1,0 +1,139 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #f1ebd8;
+color: #4e4e4e;
+}
+
+/* Header */
+header {
+position: relative;
+text-align: center;
+padding-top: 55px;
+padding-bottom: 20px;
+}
+
+header img {
+position: absolute;
+left: 30px;
+top: 30px;
+width: 70px;
+height: auto;
+margin: 0;
+}
+
+header h2 {
+text-align: center;
+margin: 0;
+color: #528b5c;
+font-size: 26px;
+}
+
+/* Navigation */
+nav {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+nav a {
+color: #4f6d54;
+text-decoration: none;
+margin: 15px;
+}
+
+/* Main Content */
+main {
+text-align: center;
+margin: 90px auto 0;
+padding: 20px;
+}
+
+h1 {
+color: #34533a;
+font-size: 36px;
+margin-bottom: 25px;
+}
+
+p {
+color: #707070;
+font-size: 18px;
+line-height: 1.8;
+margin-bottom: 30px;
+}
+
+/* Register Button */
+.register-button {
+display: inline-block;
+background-color: #405744;
+color: white;
+padding: 12px 30px;
+text-decoration: none;
+border-radius: 8px;
+font-size: 18px;
+margin-top: 10px;
+}
+
+.register-button:hover {
+background-color: #2f4233;
+}
+
+/* Register Form */
+.form-row {
+display: flex;
+gap: 30px;
+margin-top: 10px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 25px;
+flex: 1;
+}
+
+.form-group input,
+.form-group select {
+padding: 12px;
+border: 1px solid #ceb4b4;
+border-radius: 6px;
+}
+
+/* Activities Table */
+table {
+width: 90%;
+margin: 30px auto;
+border-collapse: collapse;
+background-color: white;
+}
+
+th, td {
+border: 1px solid #405744;
+padding: 18px;
+text-align: center;
+}
+
+th {
+background-color: #405744;
+color: white;
+font-size: 17px;
+}
+
+td {
+color: #333333;
+font-size: 15px;
+}
+
+td button {
+background-color: #405744;
+color: white;
+border: none;
+padding: 10px 18px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+td button:hover {
+background-color: #2f4233;
+}
